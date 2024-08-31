@@ -62,6 +62,8 @@ int main(void)
 	glfwSwapBuffers(window);
 	glfwPollEvents();
     }
+    matrix = NULL;
+    free(matrix);
     glfwTerminate();
     return 0;
 }
